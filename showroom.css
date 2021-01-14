@@ -1,0 +1,99 @@
+# wmad-w2-d3
+
+#one,#two,#three,#four,#five,#six,#seven,#eight,#nine {
+  text-align: center;
+  background-color: #f0f0f0;
+  margin: 25px;
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#showRoom {
+  background-color: #50394c;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 40px 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h3 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 60px;
+}
+
+#one {
+  background-color: #DFFF00;
+}
+
+#one:hover {
+  transform: rotate(45deg);
+  transform-origin: 50px;
+}
+
+#two {
+  background-color: #FFBF00;
+}
+
+#two:hover {
+  transform: scale(2,2);
+}
+
+#three {
+  background-color: #FF7F50;
+}
+
+#three:hover {
+  transform: rotatex(180deg);
+}
+
+#four {
+  background-color: #DE3163;
+}
+
+#four:hover {
+  transform: rotateZ(180deg);
+}
+
+#five {
+  background-color: #9FE2BF;
+  transform:skew(0deg);
+}
+
+#five:hover {
+  transform:skewY(90deg)
+}
+#six {
+  background-color: orangered;
+  transition:1s;
+}
+
+#six:hover {
+  background-color: blue;
+}
+
+#seven {
+  background-color: #40E0D0;
+}
+#seven:hover {
+  animation-name: seven;
+  animation-duration: 2s;
+}
+
+@keyframes seven {
+  0% {width: 20px;}
+  100% {width: 700px;}
+}
+
+#eight {
+  background-color: #6495ED;
+}
+
+#nine {
+  background-color: #CCCCFF;
+}
